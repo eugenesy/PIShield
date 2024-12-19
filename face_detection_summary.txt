@@ -1,0 +1,70 @@
+Face Detection Models Evaluation Summary
+==================================================
+
+Detailed Results by Model
+--------------------------------------------------
+
+OpenCV Haar:
+  Average Precision: 0.5572
+  Inference Time: 0.3241 seconds
+  Max Memory Usage: 13.12 MB
+  Average CPU Usage: 0.03%
+  Max CPU Temperature: 33.6°C
+  Model Size: 0.89 MB
+
+MediaPipe:
+  Average Precision: 0.6637
+  Inference Time: 0.0325 seconds
+  Max Memory Usage: 1.25 MB
+  Average CPU Usage: 0.05%
+  Max CPU Temperature: 32.1°C
+  Model Size: 5.00 MB
+
+MTCNN:
+  Average Precision: 0.8594
+  Inference Time: 0.5896 seconds
+  Max Memory Usage: 145.50 MB
+  Average CPU Usage: 0.01%
+  Max CPU Temperature: 35.0°C
+  Model Size: 40.00 MB
+
+Dlib HOG:
+  Average Precision: 0.5519
+  Inference Time: 0.2207 seconds
+  Max Memory Usage: 1.00 MB
+  Average CPU Usage: 0.03%
+  Max CPU Temperature: 34.0°C
+  Model Size: 15.00 MB
+
+YOLOv8:
+  Average Precision: 0.8052
+  Inference Time: 0.6298 seconds
+  Max Memory Usage: 66.00 MB
+  Average CPU Usage: 0.14%
+  Max CPU Temperature: 36.5°C
+  Model Size: 5.96 MB
+
+OpenVINO:
+  Average Precision: 0.7840
+  Inference Time: 0.0745 seconds
+  Max Memory Usage: 6.00 MB
+  Average CPU Usage: 0.02%
+  Max CPU Temperature: 35.0°C
+  Model Size: 2.37 MB
+
+Best Models by Category
+--------------------------------------------------
+Best Accuracy: MTCNN (AP: 0.8594)
+Best Speed: MediaPipe (Inference Time: 0.0325s)
+Most Memory Efficient: Dlib HOG (Max Memory: 1.00MB)
+
+Recommendations by Use Case
+--------------------------------------------------
+High Accuracy Applications (e.g., Security Systems):
+  Recommended: MTCNN
+
+Real-time Applications (e.g., Video Conferencing):
+  Recommended: MediaPipe
+
+Edge Devices (e.g., Mobile, Raspberry Pi):
+  Recommended: MediaPipe
