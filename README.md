@@ -45,7 +45,7 @@ The core privacy protection happens at the edge device, ensuring sensitive data 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pi-shield.git
+git clone https://github.com/eugenesy/pi-shield.git
 cd pi-shield
 ```
 
